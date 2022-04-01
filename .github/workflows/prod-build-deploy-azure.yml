@@ -68,7 +68,7 @@ jobs:
           GIT_BRANCH: main
 
       - name: 'Build and push image'
-        uses: docker/build-push-action@a66e35b9cbcf4ad0ea91ffcaf7bbad63ad9e0229
+        uses: docker/build-push-action@ac9327eae2b366085ac7f6a2d02df8aa8ead720a
         with:
           context: .
           push: true
